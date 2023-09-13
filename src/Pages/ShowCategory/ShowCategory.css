@@ -1,0 +1,31 @@
+.swcaContainer {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.swcaContainer img {
+    width: 100%;
+    max-width: 100%;
+    background-color: #f6f6de;
+    opacity: 0.5;
+    color: #ffecd0;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.swcaContainer img:hover{
+    opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+    .swcaContainer{
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3 ,1fr);
+    }
+  }

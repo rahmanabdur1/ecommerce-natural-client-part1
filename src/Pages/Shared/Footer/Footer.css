@@ -1,0 +1,64 @@
+.footerContainer {
+    background-color: #f2ffff;
+    height: 250px;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.naturalLife{
+    flex: 1;
+}
+.contact{
+    flex: 1;
+}
+.usefulLink{
+    flex: 1;
+}
+.newsLetter{
+    flex: 1;
+}
+
+
+.naturalLife img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -26px;
+    margin-bottom: 20px;
+}
+
+.naturalLife h4 {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: start;
+    color: #666;
+}
+
+/* .contact,
+.usefulLink,
+.newsLetter {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.contact h2,
+.usefulLink h2,
+.newsLetter h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .naturalLife{
+        text-align: center;
+    }
+    .naturalLife img{
+        margin-bottom: 5px;
+    }
+  }

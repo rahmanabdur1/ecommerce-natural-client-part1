@@ -1,0 +1,43 @@
+/* MenuItem.css */
+.menuItemContainer {
+    margin: auto;
+    max-width: 1040px;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.zoom {
+    max-width: 50%;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+.img {
+    transition: transform 0.5s; 
+    max-width: 100%;
+}
+
+.item {
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .menuItem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .zoom{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .item {
+        max-width: 80%;
+        margin: auto;
+    }
+}

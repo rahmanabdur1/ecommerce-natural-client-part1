@@ -1,0 +1,55 @@
+.fsdContainer {
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 110px;
+    background-color: #bdb76b;
+}
+
+.freeservice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frees {
+    background-color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 5px;
+    gap: 30px;
+}
+
+.icon {
+    background-color: #f3f3f3;
+    width: 60px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+
+}
+.icon:hover {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.free h4 {
+    text-align: start;
+}
+@media only screen and (max-width: 600px) {
+    .fsdContainer{
+        height: auto;
+    }
+    .freeservice{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
